@@ -16,5 +16,8 @@ alert(3+3) // will not work in nodejs, but will work in browser
 // ===== DERIVED =====
 // object
 
+// both syntax are correct
 console.log(typeof undefined); // undefined
+console.log(typeof (undefined));
+
 console.log(typeof null); // object
